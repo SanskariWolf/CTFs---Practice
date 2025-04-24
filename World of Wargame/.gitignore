@@ -1,0 +1,47 @@
+# Ignore all target build directories (Rust build outputs)
+**/target/
+
+# Ignore common Rust build artifacts
+**/*.rs.bk
+**/*.d
+**/*.lock
+**/*.bin
+
+# Ignore backup files or IDE-specific files
+**/*~
+**/#*#
+**/.#*
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# Ignore compiled object files in incremental builds
+**/*.o
+**/*.rlib
+
+# Ignore cargo specific files (not source controlled typically)
+**/Cargo.lock
+
+# Optional: Ignore binary executables if manually built here
+**/soution
+
+# Ignore temporary and cache files
+**/*.swp
+**/*.swo
+**/.cache/
+**/.temp/
+
+# Logs or debug output
+**/*.log
+
+# If you have any zip or extractable challenges
+**/*.zip
+**/*.rar
+**/*.7z
+**/*.tar
+**/*.gz
+
+# Image processing artifacts (if any)
+**/*_thumbnail.*
+**/*.tmp.*
